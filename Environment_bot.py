@@ -19,7 +19,7 @@ set_sql_debug(True)
 db.generate_mapping(create_tables=True)
 
 # bot
-token = '5119258458:AAHK15RqAID7I-Dmt4YJeIQUdqeGyqeT6xQ'
+token = token
 bot = telebot.TeleBot(token)
 
 # api to get the sensor data
